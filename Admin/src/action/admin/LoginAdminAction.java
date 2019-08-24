@@ -24,7 +24,7 @@ public class LoginAdminAction extends Action{
 			throws Exception {
 			LoginAdminForm adminForm=(LoginAdminForm) form;
 			
-			
+			System.out.println("Hello");
 			
 			HttpSession ss = request.getSession();
 			AdminBO ab = new AdminBO();
